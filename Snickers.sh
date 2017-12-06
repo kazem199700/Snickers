@@ -2,11 +2,11 @@
 token="التوكن هنا"
 function print_logo() {
 	echo -e "\e[38;5;77m"   
-echo -e "       CH > @TshAkETEAM            "
-echo -e "       CH > @TshAkETEAM           "
-echo -e "       CH > @TshAkETEAM    "
-echo -e "       CH > @TshAkETEAM     "
-echo -e "       CH > @TshAkETEAM          \e[38;5;88m"
+echo -e "       CH > @Snickers           "
+echo -e "       CH > @Snickers           "
+echo -e "       CH > @Snickers    "
+echo -e "       CH > @Snickers     "
+echo -e "       CH > @Snickers          \e[38;5;88m"
 echo -e ""
 echo -e ""
 echo -e ""
@@ -48,7 +48,7 @@ echo -e "\e[33m                                             Dev @h_k_a\e[0m"
 echo -e ""
 echo -e "        \e[38;5;300mOperation | Starting Bot"
 echo -e "        Source | TSHAKE Version 28 March 2017"
-echo -e "        CH  | @TshAkETEAM"
+echo -e "        CH  | @Snickers"
 echo -e "        Dev | @lIMyIl"
 echo -e "        Dev | @IX00XI"
 echo -e "        Dev | @lIESIl"
@@ -58,7 +58,7 @@ echo -e "        Dev | @h_k_a"
 echo -e "        \e[38;5;40m"
 
 curl "https://api.telegram.org/bot"$token"/sendmessage" -F
-./tg -s ./TSHAKE.lua $@ --bot=$token
+./tg -s ./Snickers.lua $@ --bot=$token
 
 
 
