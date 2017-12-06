@@ -4,7 +4,7 @@
     | |/ __| '_ \  / _ \ | |/ /  _|     Dev @IX00XI
     | |\__ \ | | |/ ___ \|   <| |___    Dev @H_173
     |_||___/_| |_/_/   \_\_|\_\_____|   Dev @lIESIl
-              CH > @TshAkETEAM
+              CH > @Snickers
 --]]
 serpent = require('serpent')
 serp = require 'serpent'.block
@@ -7664,7 +7664,7 @@ if text:match("^[Dd][Ee][Vv]$")or text:match("^مطور بوت$") or text:match(
 local nkeko = redis:get('nmkeko'..bot_id)
 local nakeko = redis:get('nakeko'..bot_id)
   
-sendContact(msg.chat_id_, msg.id_, 0, 1, nil, (nkeko or 9647707641864), (nakeko or "TshAke TEAM"), "", bot_id)
+sendContact(msg.chat_id_, msg.id_, 0, 1, nil, (nkeko or 9647732147398), (nakeko or "Snickers"), "", bot_id)
 end
   for k,v in pairs(sudo_users) do
 local text = msg.content_.text_:gsub('تغير امر المطور','change ph')
@@ -9242,19 +9242,19 @@ end
 if text:match("^source$") or text:match("^اصدار$") or text:match("^الاصدار$") or text:match("^السورس$") or text:match("^سورس$") then
    
    local text =  [[
-• <code>اهلا بك في سورس تشاكي</code> 🦁ֆ
+• <code>اهلا بك في سورس سنيكرز</code> 🦁ֆ
 
 • <code>المطورين</code> ⚜️:-
-• <b>TshAkE TEAM </b>
+• <b>Snickers/ </b>
 
 • <code>قناه السورس</code> ❇️:-
-•<b> Channel</b> | @lTSHAKEl_CH
+•<b> Channel</b> | @Snickers/
 
 • <code>رابط Github cli </code>🔰:-
-• https://github.com/moodlIMyIl/TshAkE
+• https://github.com/kazem199700/Snickers
 
 • <code>رابط Github api </code>🔰:-
-• https://github.com/moodlIMyIl/TshAkEapi
+• https://github.com/kazem199700/Snickers
 ]]
                 send(msg.chat_id_, msg.id_, 1, text, 1, 'html')
    end
@@ -9445,5 +9445,5 @@ end
     | |/ __| '_ \  / _ \ | |/ /  _|     Dev @IX00XI
     | |\__ \ | | |/ ___ \|   <| |___    Dev @H_173
     |_||___/_| |_/_/   \_\_|\_\_____|   Dev @lIESIl
-              CH > @TshAkETEAM
+              CH > @Snickers
 --]]
