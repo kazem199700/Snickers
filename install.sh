@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd TshAkEapi
+cd Snickers
 red() {
   printf '\e[1;31m%s\n\e[0;39;49m' "$@"
 }
@@ -18,8 +18,8 @@ Dev() {
 aa() {
  sudo apt-get install
 }
-function logo1_TshAkE() {
-green "     »»             Welcome to TshAkE APi bot                       ««      "
+function logo1_Snickers() {
+green "     »»             Welcome to Snickers APi bot                       ««      "
 green "     »»               I install it for you                          ««      "
 yellow ""
 yellow ""
@@ -32,7 +32,7 @@ yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
 yellow "                                          "
 yellow ""
 }
-function logo2_TshAkE() {
+function logo2_Snickers() {
 yellow ""
 yellow ""
 yellow ""
@@ -54,9 +54,9 @@ yellow ""
 yellow ""
 green "     »»           TshAkE APi successfully installed                 ««      "
 green "     »»            Run this command for launch bot                  ««      "
-red   "     »»                   ./TSHAKE.sh                               ««      "
+red   "     »»                   ./Snickers.sh                               ««      "
 }
-function install_TshAkE() {
+function install_Snickers() {
 sudo apt-get update
 
 sudo apt-get upgrade -y
@@ -78,7 +78,7 @@ sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 
 }
-function VICTOR_TshAkE() {
+function VICTOR_Snickers() {
 wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  tar zxpf luarocks-2.2.2.tar.gz
  rm luarocks-2.2.2.tar.gz
@@ -106,21 +106,21 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  sudo pip install redis
  cd ..
 }
-function MOODY_TshAkE() {
- cd TshAkEapi
+function MOODY_Snickers() {
+ cd Snickers
  rm -rf "luarocks-2.2.2"
  wget "https://valtman.name/files/telegram-cli-1222"
  mv telegram-cli-1222 tg
 }
-function chmod_TshAkE() {
+function chmod_Snickers() {
  chmod +x tg
- chmod +x TSHAKE.sh
- chmod +x TSHAKE-Auto.sh
+ chmod +x Snickers.sh
+ chmod +x Snickers-Auto.sh
 }
 
-logo1_TshAkE
-install_TshAkE
-VICTOR_TshAkE
-MOODY_TshAkE
-chmod_TshAkE
-logo2_TshAkE
+logo1_Snickers
+install_Snickers
+VICTOR_Snickers
+MOODY_Snickers
+chmod_Snickers
+logo2_Snickers
